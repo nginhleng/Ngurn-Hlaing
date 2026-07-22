@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nang Ngin Hleng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">MyBrand</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <!-- Text Content (Left Column) -->
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Ngin Hleng</span></h1>
+                <p>A passionate Front-End Developer & Designer</p>
+                <a href="#portfolio" class="btn">View My Work</a>
+            </div>
+            
+            <!-- Profile Photo (Right Column) -->
+            <div class="hero-image">
+                <!-- Replace 'profile.jpg' with your actual image path later -->
+                <img src="picture.webp" alt="Ngin Hleng" class="profile-pic">
+            </div>
+    
+    
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I build clean, beautiful, and responsive web applications. Focused on blending functional code with elegant user interface design.</p>
+        <div class="skills">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Responsive Design</span>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h1>My Work</h2>
+        
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web App</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="project-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-img-placeholder">Project One</div>
+                <h3>E-Commerce Platform</h3>
+                <p>A full-featured online store built with modern web tools.</p>
+            </div>
+            <div class="project-card" data-category="design">
+                <div class="project-img-placeholder">Project Two</div>
+                <h3>Brand Identity</h3>
+                <p>Complete logo and UI/UX design overhaul for a tech startup.</p>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-img-placeholder">Project Three</div>
+                <h3>Dashboard Analytics</h3>
+                <p>A clean, interactive data dashboard mapping server metrics.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        
+        <!-- Social Media Links -->
+        <div class="social-container">
+            <p>Or find me on social media:</p>
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer" class="social-icon tiktok">TikTok</a>
+                <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-icon instagram">Instagram</a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-icon github">GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="social-icon linkedin">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form id="contact-form" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
